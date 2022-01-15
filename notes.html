@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="style1.css">
+<style>
+  .required::after{
+    content: "*";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+
+  }
+</style>
+<title >
+  My HTML notes(the notes for head,doctype,and title below)</title>
+</head>
+<body>
+
+  <form>
+    <label class="required">Name</label>
+    <input type="text" required>
+    <button data-tooltip="Tooltip">Submit Form</button>
+  </form>
+Hello my name is Vijay.<br>
+Markup is a an attribute which give text a special meaning ex:<br>
+Vijay is <em>cool</em><br>
+Void elements like line break, img which has no close tag<br>
+ <p> Paragraph is p tag (regular = with start and end tag)</P>
+Using break twice will leave a line just like paragraph<br><br>
+<mark>Highlighting in yellow feature</mark> and <sub> No idea </sub> <sup>for this too</sup>
+<p><em>Nested elements are elements which<mark> have other elements inside</mark>them</em></p>
+<h1>There</h1>
+<h2>are</h2>
+<h3>6</h3>
+<h4>types</h4>
+<h5>of</h5>
+<h6>heading</h6><br>
+<div> is used to box a section in the page</div>
+Lists are of two types, closing tags optional for list(and p)
+  <ol>
+    <li>hello</li>
+    <li>whats</li>
+    <li>up</li>
+  </ol>
+  <ul>
+    <li>Hello</li>
+    <li>whats</li>
+    <li>up</li>
+  </ul>
+  <strong>Nested list</strong>
+  <ul>
+    <li>Career
+      <ol>
+        <li>Determination
+        <li>Dedication
+      </ol>
+  </ul>
+
+  <a href="https://www.freecodecamp.org/">My learning place</a><br>
+  <img src="https://placebear.com/400/200" alt="A picture of a bear">
+  <img src="https://placekitten.com/300/500" alt="A picture of a kitten."><br>
+<p>doctype defines the html is modern version and not older one and written at the top</p>
+<p>The html line comes second describing the  languages, and various other functions</p>
+  <p>The head always comes with a title and the body consists of the remaining data</p>
+
+Example of all types of style(href sile in bracket in style1.css)
+<link rel="stylesheet" href="style.css">
+<style>
+
+</style>
+
+<p style="text-align: center;">Style me 3 ways!</p>
+
+  (p {
+  font-size: 24pt;
+})
+<strong>Flexbox</strong>
+<div class="container">
+      <div class="box red">red</div>
+      <div class="box green">green</div>
+      <div class="box yellow">yellow</div>
+    </div>
+</body>
